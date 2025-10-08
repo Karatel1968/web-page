@@ -3,6 +3,7 @@ import { Card, Row, Col, Space } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import type { TeamMember } from '../../model/memberType';
 import './cardSection.css';
+import PartnersVideo from '..//videoSection/videoSection';
 
 const CardPage: React.FC = () => {
   const navigate = useNavigate();
@@ -114,8 +115,11 @@ const CardPage: React.FC = () => {
           </Row>
         </div>
       </Space>
+      <PartnersVideo/>
     </div>
+    
   );
+  
 };
 
 export default CardPage;
