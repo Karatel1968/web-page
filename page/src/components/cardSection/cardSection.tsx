@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import type { TeamMember } from '../../model/memberType';
 import './cardSection.css';
 import PartnersVideo from '..//videoSection/videoSection';
-
+import TeamSection from '../temSection/temSection';
 const CardPage: React.FC = () => {
   const navigate = useNavigate();
 
@@ -67,7 +67,9 @@ const CardPage: React.FC = () => {
   };
 
   return (
+    
     <div className="card-page">
+      <TeamSection/>
       <Space direction="vertical" size="large" style={{ width: '100%' }}>
         <div className="card-page__header">
           <h1 className="card-page__title">Наша команда</h1>
