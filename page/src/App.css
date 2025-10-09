@@ -5,6 +5,24 @@
   text-align: center;
 }
 
+.plag{
+  width: 100%;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.plag-content{
+  padding: 2%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.plag-content-text{
+  padding: 0;
+  margin: 0;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

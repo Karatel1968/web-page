@@ -5,6 +5,8 @@ import type { TeamMember } from '../../model/memberType';
 import './cardSection.css';
 import PartnersVideo from '..//videoSection/videoSection';
 import TeamSection from '../temSection/temSection';
+import { DownOutlined } from '@ant-design/icons';
+
 const CardPage: React.FC = () => {
   const navigate = useNavigate();
 
@@ -76,7 +78,13 @@ const CardPage: React.FC = () => {
           <p className="card-page__subtitle">Выберите участника для подробной информации</p>
         </div>
 
-        <div className="card-page__grid">
+        <div className='plag'>
+          <div className='plag-content'>
+            <p className='plag-content-text'>контент будет добавлен позже</p>
+          </div>
+        </div>
+
+        {/*<div className="card-page__grid">
           <Row gutter={[24, 24]} justify="center">
             {teamMembers.map((member) => (
               <Col 
@@ -116,6 +124,7 @@ const CardPage: React.FC = () => {
             ))}
           </Row>
         </div>
+        */}
       </Space>
       <PartnersVideo/>
     </div>

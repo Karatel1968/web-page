@@ -55,7 +55,7 @@ const TeamSection: React.FC = () => {
                         Postman
                     </Tag>
                     <Tag color="yellow" className="team-section__tag">
-                        Node.js
+                        Docker
                     </Tag>
                   </div>
                 </div>
