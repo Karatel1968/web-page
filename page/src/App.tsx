@@ -4,7 +4,7 @@ import { ConfigProvider } from 'antd';
 import ruRU from 'antd/locale/ru_RU';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MemberProfile from './pages/memberPage/memberPage';
-
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
             <Route path="/" element={<CardPage />} />
             <Route path="/member/:id" element={<MemberProfile />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
     </ConfigProvider>

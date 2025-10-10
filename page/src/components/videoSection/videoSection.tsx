@@ -68,8 +68,12 @@ const PartnersVideo: React.FC = () => {
                   Наше видео
                 </Title>
               </div>
-              
-              <div className="partners-video__video-container">
+              <div className='plag'>
+          <div className='plag-content'>
+            <p className='plag-content-text'>контент будет добавлен позже</p>
+          </div>
+        </div>
+              {/*<div className="partners-video__video-container">
                 <iframe
                   width="100%"
                   height="315"
@@ -80,7 +84,7 @@ const PartnersVideo: React.FC = () => {
                   allowFullScreen
                   className="partners-video__iframe"
                 ></iframe>
-              </div>
+              </div>*/}
 
               <div className="partners-video__features">
                 <div className="partners-video__feature">

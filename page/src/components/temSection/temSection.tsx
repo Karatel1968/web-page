@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Row, Col, Typography, Avatar, Tag } from 'antd';
 import { TeamOutlined, RocketOutlined, HeartOutlined, TrophyOutlined } from '@ant-design/icons';
 import './teamSection.css';
+import teamPhoto from '../../assets/5422726915548119153.jpg'
 
 const { Title, Paragraph } = Typography;
 
@@ -19,7 +20,7 @@ const TeamSection: React.FC = () => {
                   <TeamOutlined className="team-section__icon" />
                   <div>
                     <Title level={1} className="team-section__title">
-                      Команда SRUT
+                      Команда RUST
                     </Title>
                     <div className="team-section__subtitle">
                       Профессионалы, честно
@@ -28,10 +29,7 @@ const TeamSection: React.FC = () => {
                 </div>
                 
                 <Paragraph className="team-section__description">
-                  Мы - сплоченная команда из 4 специалистов, объединенных страстью 
-                  к созданию инновационных цифровых решений. бла бла бла бла бла бла бла бла
-                   бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла
-                    бла бла бла бла бла.
+                  Молодая команда из 4-х человек. Специализируемся на android и web разработке. Наши преимущества сильная мотивация и ответственность, а так же любовь к тому чем мы занимаемся, которые с лихвой компенсируют наши недостатки в опыте. При работе с нами вы получите не только положительные эмоции и блестяще выполненную работу но и полный покет технической документации. Мы ручаемся за качество своей работы и сервис. Выбирайте нас и мы сделаем всё возможное что бы работа с нами была простой и приятной.
                 </Paragraph>
 
                 <div className="team-section__values">
@@ -69,7 +67,7 @@ const TeamSection: React.FC = () => {
               <div className="team-section__visual">
                 <div className="team-section__photo-container">
                   <img 
-                    src=""
+                    src={teamPhoto}
                     alt="Наша команда"
                     className="team-section__main-photo"
                   />
@@ -80,6 +78,8 @@ const TeamSection: React.FC = () => {
                 </div>
 
               </div>
+
+
             </Col>
           </Row>
         </Card>
