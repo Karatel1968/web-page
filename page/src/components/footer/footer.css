@@ -11,3 +11,154 @@
   padding: 0 24px;
 }
 
+.footer__title {
+  color: white !important;
+  margin-bottom: 20px !important;
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  margin-top: 0;
+}
+
+/* Контакты */
+.footer__contacts {
+  margin-bottom: 24px;
+}
+
+.footer__contact-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 5px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__contact-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.footer__contact-icon {
+  font-size: 20px;
+  color: #1890ff;
+  width: 24px;
+  text-align: center;
+}
+
+.footer__contact-info {
+  
+}
+
+.footer__contact-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  padding-right: 5px;
+}
+
+.footer__contact-value {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Информация */
+.footer__info {
+  margin-bottom: 0px;
+}
+
+.footer__description {
+  color: rgba(255, 255, 255, 0.8) !important;
+  line-height: 1.6 !important;
+  margin-bottom: 20px !important;
+  display: block;
+}
+
+.footer__social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__social-link {
+  display: flex;
+  
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.footer__social-link:hover {
+  background: #1890ff;
+  transform: translateY(-2px);
+  color: white;
+}
+
+/* Нижняя часть */
+.footer__bottom {
+  margin-top: 0px;
+}
+
+.footer__divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+.footer__copyright {
+  text-align: center;
+}
+
+.footer__copyright-text {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 0.9rem;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .footer {
+    padding: 32px 0 16px 0;
+  }
+  
+  .footer__container {
+    padding: 0 16px;
+  }
+  
+  .footer__contact-item {
+    gap: 12px;
+    padding: 10px 0;
+  }
+  
+  .footer__contact-icon {
+    font-size: 18px;
+  }
+  
+  .footer__contact-value {
+    font-size: 0.95rem;
+  }
+  
+  .footer__title {
+    font-size: 1.2rem !important;
+  }
+  
+  .footer__social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__contact-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+  
+  .footer__contact-info {
+    align-items: center;
+  }
+}
