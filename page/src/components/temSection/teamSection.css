@@ -122,7 +122,6 @@
   }
   
   .team-section__header {
-    flex-direction: column;
     text-align: center;
     gap: 16px;
   }
@@ -176,11 +175,19 @@
   }
   
   .team-section__description {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
   }
   
   .team-section__tag {
     font-size: 0.85rem !important;
     padding: 6px 12px !important;
+  }
+
+  .team-section__header {
+    display: block;
+  }
+
+  .team-section__info {
+    padding: 0;
   }
 }

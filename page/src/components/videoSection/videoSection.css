@@ -1,5 +1,4 @@
 .partners-video {
-  min-height: 100vh;
   background: transparent;
   padding: 40px 24px;
 }
@@ -239,5 +238,9 @@
   
   .partners-video__stat-number {
     font-size: 1.8rem;
+  }
+
+  .partners-video__header {
+    font-size: 1rem;
   }
 }
