@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Typography } from 'antd';
-import { PhoneOutlined, MailOutlined, WhatsAppOutlined, EnvironmentOutlined } from '@ant-design/icons';
+import { PhoneOutlined, MailOutlined, WhatsAppOutlined } from '@ant-design/icons';
 import './footer.css';
 
 const { Text, Title } = Typography;

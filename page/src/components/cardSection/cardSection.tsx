@@ -1,16 +1,17 @@
 import React from 'react';
-import { Card, Row, Col, Space } from 'antd';
-import { useNavigate } from 'react-router-dom';
-import type { TeamMember } from '../../model/memberType';
+import { Space } from 'antd';
+{/*import {Card, Row, Col} from 'antd';*/}
+{/*import { useNavigate } from 'react-router-dom';*/}
+{/*import type { TeamMember } from '../../model/memberType';*/}
 import './cardSection.css';
 import PartnersVideo from '..//videoSection/videoSection';
 import TeamSection from '../temSection/temSection';
-import { DownOutlined } from '@ant-design/icons';
+{/*import { DownOutlined } from '@ant-design/icons';*/}
 
 const CardPage: React.FC = () => {
-  const navigate = useNavigate();
+  /*const navigate = useNavigate();*/
 
-  const teamMembers: TeamMember[] = [
+  {/*const teamMembers: TeamMember[] = [
     {
       id: 1,
       name: 'Алексей Петров',
@@ -66,7 +67,7 @@ const CardPage: React.FC = () => {
 
   const handleCardClick = (member: TeamMember) => {
     navigate(`/member/${member.id}`, { state: { member } });
-  };
+  };*/}
 
   return (
     

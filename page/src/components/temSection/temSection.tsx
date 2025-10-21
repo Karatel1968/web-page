@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, Row, Col, Typography, Avatar, Tag } from 'antd';
-import { TeamOutlined, RocketOutlined, HeartOutlined, TrophyOutlined } from '@ant-design/icons';
+import { Card, Row, Col, Typography, Tag } from 'antd';
+import { TeamOutlined, TrophyOutlined } from '@ant-design/icons';
 import './teamSection.css';
 import teamPhoto from '../../assets/5422726915548119153.jpg'
 

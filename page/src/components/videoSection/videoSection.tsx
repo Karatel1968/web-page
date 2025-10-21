@@ -45,7 +45,7 @@ const PartnersVideo: React.FC = () => {
     }
   ];
 
-  const videoUrl = "https://www.youtube.com/watch?v=lq0gRP3C1PI&t=1s";
+  /*const videoUrl = "https://www.youtube.com/watch?v=lq0gRP3C1PI&t=1s";*/
 
   return (
     <div className="partners-video">
