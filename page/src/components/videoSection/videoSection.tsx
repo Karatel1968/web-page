@@ -15,7 +15,7 @@ interface Partner {
 
 const PartnersVideo: React.FC = () => {
   const partners: Partner[] = [
-    {
+    /*{
       id: 1,
       name: 'Геи',
       logo: '',
@@ -35,7 +35,7 @@ const PartnersVideo: React.FC = () => {
       logo: '',
       description: '...............................',
       website: ''
-    },
+    },*/
     {
       id: 4,
       name: 'ННГУ',
