@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0', // Слушаем все интерфейсы
     port: 5173,
+    allowedHosts: ['rustprogersteam.ru'],
     strictPort: true, // Запрещаем автоматический выбор порта
     hmr: {
       clientPort: 5173, // Важно для HMR в Docker
